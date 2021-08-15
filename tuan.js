@@ -26,15 +26,15 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
-      name: "Click Pow Get Down",
-      singer: "Raftaar x Fortnite",
-      path: "https://zingmp3.vn/bai-hat/Sai-Cach-Yeu-Le-Bao-Binh/ZUOZE7EZ.html",
-      image: "https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg"
+      name: "Sai Cách Yêu",
+      singer: "Lê Bảo Bình",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUOZE7EZ/128",
+      image: "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/5/1/7/c/517ca58e0bb720d2e469e96259ef2bdd.jpg"
     },
     {
       name: "Tu Phir Se Aana",
       singer: "Raftaar x Salim Merchant x Karma",
-      path: "https://mp3.vlcmusic.com/download.php?track_id=34213&format=320",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUOZWCUC/128",
       image:
         "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
     },
