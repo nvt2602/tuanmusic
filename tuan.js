@@ -26,54 +26,55 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
-      name: "Sai Cách Yêu",
-      singer: "Lê Bảo Bình",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUOZE7EZ/128",
-      image: "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/5/1/7/c/517ca58e0bb720d2e469e96259ef2bdd.jpg"
+      name: "3 1 0 7 - 2",
+      singer: "Duongg, W/N, Nâu",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZO6EIB7B/128",
+      image: "	https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/6/f/2/d/6f2d41d6502a731e16eaddb411895a01.jpg"
     },
     {
-      name: "Tu Phir Se Aana",
-      singer: "Raftaar x Salim Merchant x Karma",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUOZWCUC/128",
+      name: "3107 3",
+      singer: "Duongg, W/N, Nâu,titie",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUO8O6E9/128",
       image:
-        "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/9/a/1/0/9a1011421acc7ed77033ebabaa087988.jpg"
     },
     {
-      name: "Naachne Ka Shaunq",
-      singer: "Raftaar x Brobha V",
+      name: "Ước Mơ Của Mẹ",
+      singer: "Ngọc Khánh Chi",
       path:
-        "https://mp3.filmysongs.in/download.php?id=Naachne Ka Shaunq Raftaar Ft Brodha V Mp3 Hindi Song Filmysongs.co.mp3",
-      image: "https://i.ytimg.com/vi/QvswgfLDuPg/maxresdefault.jpg"
+        "http://api.mp3.zing.vn/api/streaming/audio/ZWCO00ID/128",
+      image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/b/e/c/a/beca85a2946fc8465f655f746b31e144.jpg"
     },
     {
-      name: "Mantoiyat",
-      singer: "Raftaar x Nawazuddin Siddiqui",
-      path: "https://mp3.vlcmusic.com/download.php?track_id=14448&format=320",
+      name: "Độ Tộc 2",
+      singer: "Độ Mixi,Phúc Du ,Pháo, Masew",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUUUEEIE/128",
       image:
-        "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/9/6/7/5/9675faf09a3f6cc4e78b45c170bccd6c.jpg"
     },
     {
-      name: "Aage Chal",
-      singer: "Raftaar",
-      path: "https://mp3.vlcmusic.com/download.php?track_id=25791&format=320",
+      name: "Tận Cùng Của Nỗi Nhớ",
+      singer: "Will,Han Sara",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZW9DZFF0/128",
       image:
-        "https://a10.gaanacdn.com/images/albums/72/3019572/crop_480x480_3019572.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/a/1/f/1a1f5688569dfc52005abf304676ea63.jpg"
     },
     {
-      name: "Damn",
-      singer: "Raftaar x kr$na",
+      name: "Thay Tôi Yêu Cô Ấy",
+      singer: "Thanh Hưng",
       path:
-        "https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3",
+        "http://api.mp3.zing.vn/api/streaming/audio/ZWAEU0EE/128",
       image:
-        "https://filmisongs.xyz/wp-content/uploads/2020/07/Damn-Song-Raftaar-KrNa.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/5/0/d/4/50d49d8c9046d12fe2bace3cf336053a.jpg"
     },
     {
-      name: "Feeling You",
-      singer: "Raftaar x Harjas",
-      path: "https://mp3.vlcmusic.com/download.php?track_id=27145&format=320",
+      name: "Bức Tranh Từ Nước Mắt",
+      singer: "Mr.Siro",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZW67FWWF/128",
       image:
-        "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/6/a/8/a/6a8ae866869be92aac93f205c98568ee.jpg"
     }
+    
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
