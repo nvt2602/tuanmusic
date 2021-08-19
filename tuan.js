@@ -39,11 +39,11 @@ const app = {
         "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/9/a/1/0/9a1011421acc7ed77033ebabaa087988.jpg"
     },
     {
-      name: "Ước Mơ Của Mẹ",
-      singer: "Ngọc Khánh Chi",
+      name: "Chỉ Là Không Cùng Nhau",
+      singer: "Tăng Phúc,Trương Thảo Nhi",
       path:
-        "http://api.mp3.zing.vn/api/streaming/audio/ZWCO00ID/128",
-      image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/b/e/c/a/beca85a2946fc8465f655f746b31e144.jpg"
+        "http://api.mp3.zing.vn/api/streaming/audio/ZOACFBBU./128",
+      image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/f/1/a/1f1ab8428a983f8a7700bfaa5591713b.jpg"
     },
     {
       name: "Độ Tộc 2",
