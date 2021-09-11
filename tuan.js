@@ -26,54 +26,55 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
-      name: "Sai Cách Yêu",
-      singer: "Lê Bảo Bình",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUOZE7EZ/128",
-      image: "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/5/1/7/c/517ca58e0bb720d2e469e96259ef2bdd.jpg"
+      name: "3 1 0 7 - 2",
+      singer: "Duongg, W/N, Nâu",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZO6EIB7B/128",
+      image: "	https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/6/f/2/d/6f2d41d6502a731e16eaddb411895a01.jpg"
     },
     {
-      name: "Rồi Tới Luôn",
-      singer: "Nal",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUOZWCUC/128",
+      name: "3107 3",
+      singer: "Duongg, W/N, Nâu,titie",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUO8O6E9/128",
       image:
-        "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/a/9/e/e/a9ee81fdd1c2b569c1c9631e969ea0aa.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/9/a/1/0/9a1011421acc7ed77033ebabaa087988.jpg"
     },
     {
-      name: "Đừng Chúc Em Hạnh Phúc",
-      singer: "Thanh Hà",
+      name: "Cảm Ơn Anh",
+      singer: "Hoàng Yến ChiBii",
       path:
-        "http://api.mp3.zing.vn/api/streaming/audio/ZW7AA87B/128",
-      image: "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/covers/e/8/e84c8010ce0a9e83a1ec21484585d197_1490095758.jpg"
+        "http://api.mp3.zing.vn/api/streaming/audio/ZUW8IOB0/128",
+      image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/9/9/8/d/998dd7d002f3b4adb4cbccfcd76adffe.jpg"
     },
     {
-      name: "Mình Chia Tay Đi",
-      singer: "ERIK",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZW9D8ZZZ/128",
+      name: "Độ Tộc 2",
+      singer: "Độ Mixi,Phúc Du ,Pháo, Masew",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZUUUEEIE/128",
       image:
-        "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/9/6/7/5/9675faf09a3f6cc4e78b45c170bccd6c.jpg"
     },
     {
-      name: "Đánh Mất Em",
-      singer: "Quang Đăng Trần",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZWDBBADB/128",
+      name: "Yêu Được Không ",
+      singer: "ĐỨC PHÚC x VIRUSS",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZWAD6W69/320",
       image:
-        "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/0/7/1/4/0714c3f88d82f5c1bd4cbdd779ba1720.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/5/0/9/7/50971fb6fecd447214299c6e659eaab2.jpg"
     },
     {
-      name: "Phải Giữ Em Thế Nào",
+      name: "Thay Tôi Yêu Cô Ấy",
+      singer: "Thanh Hưng",
+      path:
+        "http://api.mp3.zing.vn/api/streaming/audio/ZWAEU0EE/128",
+      image:
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/5/0/d/4/50d49d8c9046d12fe2bace3cf336053a.jpg"
+    },
+    {
+      name: "Bức Tranh Từ Nước Mắt",
       singer: "Mr.Siro",
-      path:
-        "http://api.mp3.zing.vn/api/streaming/audio/ZUWEDZ80/128",
+      path: "http://api.mp3.zing.vn/api/streaming/audio/ZW67FWWF/128",
       image:
-        "https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/8/8/1/8/88186dc50283d484954a81d336c58fe8.jpg"
-    },
-    {
-      name: "Em Của Quá Khứ",
-      singer: "Nguyễn Đình Vũ",
-      path: "http://api.mp3.zing.vn/api/streaming/audio/ZW7009IZ/128",
-      image:
-        "https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/avatars/d/7/d7f5fa24bdf79c103f17808515eb76bf_1472359995.jpg"
+        "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/6/a/8/a/6a8ae866869be92aac93f205c98568ee.jpg"
     }
+    
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
